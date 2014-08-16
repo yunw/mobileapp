@@ -3,7 +3,12 @@ apply plugin: 'eclipse'
 apply plugin: 'war'
 apply plugin: 'jetty'
 
-stopPort = 8081 
+jettyRun {
+    httpPort = 18080
+   
+}
+
+stopPort = 18081 
 stopKey = 'stopKey'
 
 repositories {

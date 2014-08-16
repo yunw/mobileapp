@@ -31,7 +31,7 @@
     <servlet-mapping>
         <servlet-name>EchoServlet</servlet-name>
         <url-pattern>/echo</url-pattern>
-        <!-- http://localhost:8080/echo -->
+        <!-- http://localhost:7080/echo -->
     </servlet-mapping>
 
 </web-app>    
